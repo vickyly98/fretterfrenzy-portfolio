@@ -102,7 +102,7 @@ export default function App() {
             }}
           >
             <img
-              src={`/${image}`}
+              src={`/images/${image}`}
               alt={`Gallery item ${idx + 1}`}
               style={styles.image}
               loading="lazy"
