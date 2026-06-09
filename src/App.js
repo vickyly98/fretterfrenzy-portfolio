@@ -16,19 +16,19 @@ export default function App() {
     'artwork12.png',
     'artwork14.png',
     'artwork15.png',
-    '4x6_Cat_Lace_2.png',
+    '4x6_Cat_Lace 2.png',
     'Cabybara_Love_You.png',
     '_8.5x11_Fruits.png',
   ];
 
   const clayImages = [
-    'Frame_73.png',
-    'Frame_74.png',
-    'Frame_75.png',
-    'Frame_76.png',
-    'Frame_77.png',
-    'Frame_78.png',
-    'Frame_79.png',
+    'Frame 73.png',
+    'Frame 74.png',
+    'Frame 75.png',
+    'Frame 76.png',
+    'Frame 77.png',
+    'Frame 78.png',
+    'Frame 79.png',
   ];
 
   const images = activeTab === 'illustrations' ? homeImages : clayImages;
