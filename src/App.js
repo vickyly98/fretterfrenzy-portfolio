@@ -18,8 +18,7 @@ export default function App() {
     'artwork15.png',
     '4x6_Cat_Lace_2.png',
     'Cabybara_Love_You.png',
-    'Group_8.png',
-    '_8_5x11_Fruits.png',
+    '_8.5x11_Fruits.png',
   ];
 
   const clayImages = [
@@ -103,7 +102,7 @@ export default function App() {
             }}
           >
             <img
-              src={`/${image}`}
+              src={`/images/${image}`}
               alt={`Gallery item ${idx + 1}`}
               style={styles.image}
               loading="lazy"
