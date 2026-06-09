@@ -102,13 +102,10 @@ export default function App() {
             }}
           >
             <img
-              src={`/images/${image}`}
+              src={`/${image}`}
               alt={`Gallery item ${idx + 1}`}
               style={styles.image}
               loading="lazy"
-              onError={(e) => {
-                console.error(`Failed to load: ${image}`);
-              }}
             />
           </div>
         ))}
